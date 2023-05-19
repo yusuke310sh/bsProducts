@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-reboot.min.css">
+    <meta name="description" content="Bootstrap Test">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container">
+              <h1><a class="navbar-brand" href="#"><img src="images/logo.png" alt="Bootstrap Test Logo"></a></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">AboutUs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#head01">見出し01</a></li>
+                      <li><a class="dropdown-item" href="#head02">見出し02</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#head03">見出し03</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide mb-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-none d-sm-block"><img src="images/main1.jpg" class="d-block w-100" alt="..."></div>
+            <div class="d-sm-none"><img src="images/main-s1.jpg" class="d-block w-100" alt="..."></div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-none d-sm-block"><img src="images/main2.jpg" class="d-block w-100" alt="..."></div>
+            <div class="d-sm-none"><img src="images/main-s2.jpg" class="d-block w-100" alt="..."></div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-none d-sm-block"><img src="images/main3.jpg" class="d-block w-100" alt="..."></div>
+            <div class="d-sm-none"><img src="images/main-s3.jpg" class="d-block w-100" alt="..."></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="container topics">
+        <ul class="row">
+            <li class="col-lg-4 col-xs-12 mb-5" id="head01">
+                <img src="images/img1.jpg" alt="" class="img-thumbnail rounded-circle d-block mx-auto">
+                <h2>見出し01</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quia deleniti necessitatibus expedita, ipsa eveniet suscipit illum voluptatem iste exercitationem pariatur dolore! Vitae, aliquam, ratione recusandae laudantium non nostrum quos dolores blanditiis est quaerat praesentium iste inventore. Quas at culpa nesciunt tempora nulla consectetur recusandae corrupti! Distinctio, in molestiae. Soluta?</p>
+                <a class="btn btn-primary me-2" href="#">詳細</a>
+                <a class="btn btn-warning" href="#">公式</a>
+            </li>
+            <li class="col-lg-4 col-xs-12 mb-5" id="head02">
+                <img src="images/img2.jpg" alt="" class="img-thumbnail rounded-circle d-block mx-auto">
+                <h2>見出し02</h2>
+                <p>Tempore id iste reiciendis voluptate fugit porro dicta molestias quod repudiandae quas molestiae beatae maxime at, quae exercitationem omnis atque officiis optio! Porro praesentium architecto rerum illo necessitatibus qui voluptas officia repellendus blanditiis odit corporis perspiciatis aspernatur, saepe quis eos nam magnam aperiam eaque ipsum! Accusamus repellat quos obcaecati odit?</p>
+                <a class="btn btn-primary me-2" href="#">詳細</a>
+                <a class="btn btn-warning" href="#">公式</a>
+            </li>
+            <li class="col-lg-4 col-xs-12 mb-5" id="head03">
+                <img src="images/img3.jpg" alt="" class="img-thumbnail rounded-circle d-block mx-auto">
+                <h2>見出し03</h2>
+                <p>Nihil, qui sit consequuntur illum eos error ratione molestiae unde, tempore repudiandae accusamus sunt repellat recusandae debitis nemo fugit? Voluptatum tenetur magnam nulla provident quidem explicabo qui officiis ipsum repudiandae debitis, facilis corrupti aperiam porro, tempora perferendis animi eius. Delectus asperiores, doloremque tempora animi tempore sed illum impedit laborum minima.</p>
+                <a class="btn btn-primary me-2" href="#">詳細</a>
+                <a class="btn btn-warning" href="#">公式</a>
+            </li>
+        </ul>
+      </section>
+      <section class="container banner">
+        <div class="row">
+            <div class="col-lg-3 col-xs-12"><img src="images/img4.jpg" alt="バナー" class="img-thumbnail rounded w-100 mb-4"></div>
+            <div class="col-lg-3 col-xs-12"><img src="images/img5.jpg" alt="バナー" class="img-thumbnail rounded w-100 mb-4"></div>
+            <div class="col-lg-3 col-xs-12"><img src="images/img6.jpg" alt="バナー" class="img-thumbnail rounded w-100 mb-4"></div>
+            <div class="col-lg-3 col-xs-12"><img src="images/img7.jpg" alt="バナー" class="img-thumbnail rounded w-100 mb-4"></div>
+        </div>
+      </section>
+      <div class="section container cards my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img8.jpg" alt="card" class="card-img-top imgfliud">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img9.jpg" alt="card" class="card-img-top imgfliud">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img10.jpg" alt="card" class="card-img-top imgfliud">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <footer class="text-white-50 py-5 bg-dark">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+          </p>
+          <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+          <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.3/getting-started/introduction/">getting started guide</a>.</p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
